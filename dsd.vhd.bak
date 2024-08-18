@@ -1,0 +1,2 @@
+
+library ieee; use ieee.std_logic_1164.all; entity projectl is port ( A,B,C: in std logic; F: out std logic); end projectl; architecture arch of projectl is begin F <= (NOT A and NOT B) OR C; end arch;
